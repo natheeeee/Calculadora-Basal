@@ -31,7 +31,7 @@ function calcFlujo(peso){
             flujo = peso * 100;
         }
         else{
-            if (peso>21){
+            if (peso<21){
                 flujo = 1000 + ((peso - 10) * 50);
             }
             else{
