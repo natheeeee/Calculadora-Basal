@@ -5,14 +5,14 @@ body {
 }
 
 #calculadora {
-    background: rgb(255, 255, 255);
+    background: #fdfffc;
     width: 50%;
     height: 100%;
     float: left;
 }
 
 #detalle {
-    background: #1a67db;
+    background: #83c5be;
     width: 50%;
     height: 100%;
     float: left;
@@ -40,8 +40,8 @@ button {
     padding: 12px 45px;
     margin-top: 18px;
     border-radius: 30px;
-    background-color: #1a67db;
-    border: 2px solid #1a67db;
+    background-color: #83c5be;
+    border: 2px solid #83c5be;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -49,8 +49,8 @@ button {
 }
 
 button:hover {
-    background-color: #458bf3;
-    border-color: #458bf3;
+    background-color: #4e9790;
+    border-color: #4e9790;
     cursor: pointer;
     transform: scale(1.05);
 }
@@ -79,7 +79,7 @@ button:active {
 }
 
 .resultado {
-    color: #fa8910;
+    color: #447d7b;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
